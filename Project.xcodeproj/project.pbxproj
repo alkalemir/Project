@@ -7,21 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D07BB5E29FF0128006C8549 /* SelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07BB5D29FF0128006C8549 /* SelectionController.swift */; };
+		2D07BB6029FF014C006C8549 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07BB5F29FF014C006C8549 /* UIViewController+.swift */; };
+		2D07BB6229FF01CB006C8549 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07BB6129FF01CB006C8549 /* UIImageView+.swift */; };
 		2DF3F6FE29FE98B100ED63CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF3F6FD29FE98B100ED63CA /* AppDelegate.swift */; };
 		2DF3F70029FE98B100ED63CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF3F6FF29FE98B100ED63CA /* SceneDelegate.swift */; };
-		2DF3F70229FE98B100ED63CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF3F70129FE98B100ED63CA /* ViewController.swift */; };
+		2DF3F70229FE98B100ED63CA /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF3F70129FE98B100ED63CA /* MenuController.swift */; };
 		2DF3F70729FE98B100ED63CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF3F70629FE98B100ED63CA /* Assets.xcassets */; };
 		2DF3F70A29FE98B100ED63CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF3F70829FE98B100ED63CA /* LaunchScreen.storyboard */; };
+		2DF3F71629FE9A5200ED63CA /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF3F71529FE9A5200ED63CA /* UIColor+.swift */; };
+		2DF3F71929FE9B3500ED63CA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2DF3F71829FE9B3500ED63CA /* SnapKit */; };
+		2DF3F72629FEF8D500ED63CA /* Euclid Circular A Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF3F71C29FEF8D500ED63CA /* Euclid Circular A Bold Italic.ttf */; };
+		2DF3F72729FEF8D500ED63CA /* Euclid Circular A SemiBold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF3F71D29FEF8D500ED63CA /* Euclid Circular A SemiBold Italic.ttf */; };
+		2DF3F72829FEF8D500ED63CA /* Euclid Circular A SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF3F71E29FEF8D500ED63CA /* Euclid Circular A SemiBold.ttf */; };
+		2DF3F72929FEF8D500ED63CA /* Euclid Circular A Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF3F71F29FEF8D500ED63CA /* Euclid Circular A Italic.ttf */; };
+		2DF3F72A29FEF8D500ED63CA /* Euclid Circular A Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF3F72029FEF8D500ED63CA /* Euclid Circular A Regular.ttf */; };
+		2DF3F72B29FEF8D500ED63CA /* Euclid Circular A Medium Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF3F72129FEF8D500ED63CA /* Euclid Circular A Medium Italic.ttf */; };
+		2DF3F72C29FEF8D500ED63CA /* Euclid Circular A Light Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF3F72229FEF8D500ED63CA /* Euclid Circular A Light Italic.ttf */; };
+		2DF3F72D29FEF8D500ED63CA /* Euclid Circular A Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF3F72329FEF8D500ED63CA /* Euclid Circular A Light.ttf */; };
+		2DF3F72E29FEF8D500ED63CA /* Euclid Circular A Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF3F72429FEF8D500ED63CA /* Euclid Circular A Bold.ttf */; };
+		2DF3F72F29FEF8D500ED63CA /* Euclid Circular A Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF3F72529FEF8D500ED63CA /* Euclid Circular A Medium.ttf */; };
+		2DF3F73129FEFA1600ED63CA /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF3F73029FEFA1600ED63CA /* UIFont+.swift */; };
+		2DF3F73329FEFCE700ED63CA /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF3F73229FEFCE700ED63CA /* UIView+.swift */; };
+		2DF3F73529FEFD6700ED63CA /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF3F73429FEFD6700ED63CA /* UIButton+.swift */; };
+		2DF3F73729FEFFC000ED63CA /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF3F73629FEFFC000ED63CA /* UILabel+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D07BB5D29FF0128006C8549 /* SelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionController.swift; sourceTree = "<group>"; };
+		2D07BB5F29FF014C006C8549 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		2D07BB6129FF01CB006C8549 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
 		2DF3F6FA29FE98B100ED63CA /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF3F6FD29FE98B100ED63CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DF3F6FF29FE98B100ED63CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2DF3F70129FE98B100ED63CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DF3F70129FE98B100ED63CA /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		2DF3F70629FE98B100ED63CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DF3F70929FE98B100ED63CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DF3F70B29FE98B100ED63CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DF3F71529FE9A5200ED63CA /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		2DF3F71C29FEF8D500ED63CA /* Euclid Circular A Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular A Bold Italic.ttf"; sourceTree = "<group>"; };
+		2DF3F71D29FEF8D500ED63CA /* Euclid Circular A SemiBold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular A SemiBold Italic.ttf"; sourceTree = "<group>"; };
+		2DF3F71E29FEF8D500ED63CA /* Euclid Circular A SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular A SemiBold.ttf"; sourceTree = "<group>"; };
+		2DF3F71F29FEF8D500ED63CA /* Euclid Circular A Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular A Italic.ttf"; sourceTree = "<group>"; };
+		2DF3F72029FEF8D500ED63CA /* Euclid Circular A Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular A Regular.ttf"; sourceTree = "<group>"; };
+		2DF3F72129FEF8D500ED63CA /* Euclid Circular A Medium Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular A Medium Italic.ttf"; sourceTree = "<group>"; };
+		2DF3F72229FEF8D500ED63CA /* Euclid Circular A Light Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular A Light Italic.ttf"; sourceTree = "<group>"; };
+		2DF3F72329FEF8D500ED63CA /* Euclid Circular A Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular A Light.ttf"; sourceTree = "<group>"; };
+		2DF3F72429FEF8D500ED63CA /* Euclid Circular A Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular A Bold.ttf"; sourceTree = "<group>"; };
+		2DF3F72529FEF8D500ED63CA /* Euclid Circular A Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular A Medium.ttf"; sourceTree = "<group>"; };
+		2DF3F73029FEFA1600ED63CA /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		2DF3F73229FEFCE700ED63CA /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		2DF3F73429FEFD6700ED63CA /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
+		2DF3F73629FEFFC000ED63CA /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,12 +66,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF3F71929FE9B3500ED63CA /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D07BB5B29FF010F006C8549 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2DF3F70129FE98B100ED63CA /* MenuController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		2D07BB5C29FF0117006C8549 /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				2D07BB5D29FF0128006C8549 /* SelectionController.swift */,
+			);
+			path = Selection;
+			sourceTree = "<group>";
+		};
 		2DF3F6F129FE98B100ED63CA = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +108,8 @@
 		2DF3F6FC29FE98B100ED63CA /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				2DF3F71A29FEF8BE00ED63CA /* Fonts */,
+				2DF3F71429FE9A4A00ED63CA /* Extensions */,
 				2DF3F71129FE98D600ED63CA /* App */,
 				2DF3F71229FE98E100ED63CA /* Resources */,
 				2DF3F71329FE991100ED63CA /* Scenes */,
@@ -83,9 +139,49 @@
 		2DF3F71329FE991100ED63CA /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				2DF3F70129FE98B100ED63CA /* ViewController.swift */,
+				2D07BB5B29FF010F006C8549 /* Menu */,
+				2D07BB5C29FF0117006C8549 /* Selection */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2DF3F71429FE9A4A00ED63CA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DF3F71529FE9A5200ED63CA /* UIColor+.swift */,
+				2DF3F73029FEFA1600ED63CA /* UIFont+.swift */,
+				2DF3F73229FEFCE700ED63CA /* UIView+.swift */,
+				2DF3F73429FEFD6700ED63CA /* UIButton+.swift */,
+				2DF3F73629FEFFC000ED63CA /* UILabel+.swift */,
+				2D07BB5F29FF014C006C8549 /* UIViewController+.swift */,
+				2D07BB6129FF01CB006C8549 /* UIImageView+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2DF3F71A29FEF8BE00ED63CA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2DF3F71B29FEF8D500ED63CA /* euclid-circular-a-cufonfonts */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2DF3F71B29FEF8D500ED63CA /* euclid-circular-a-cufonfonts */ = {
+			isa = PBXGroup;
+			children = (
+				2DF3F71C29FEF8D500ED63CA /* Euclid Circular A Bold Italic.ttf */,
+				2DF3F71D29FEF8D500ED63CA /* Euclid Circular A SemiBold Italic.ttf */,
+				2DF3F71E29FEF8D500ED63CA /* Euclid Circular A SemiBold.ttf */,
+				2DF3F71F29FEF8D500ED63CA /* Euclid Circular A Italic.ttf */,
+				2DF3F72029FEF8D500ED63CA /* Euclid Circular A Regular.ttf */,
+				2DF3F72129FEF8D500ED63CA /* Euclid Circular A Medium Italic.ttf */,
+				2DF3F72229FEF8D500ED63CA /* Euclid Circular A Light Italic.ttf */,
+				2DF3F72329FEF8D500ED63CA /* Euclid Circular A Light.ttf */,
+				2DF3F72429FEF8D500ED63CA /* Euclid Circular A Bold.ttf */,
+				2DF3F72529FEF8D500ED63CA /* Euclid Circular A Medium.ttf */,
+			);
+			path = "euclid-circular-a-cufonfonts";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +200,9 @@
 			dependencies = (
 			);
 			name = Project;
+			packageProductDependencies = (
+				2DF3F71829FE9B3500ED63CA /* SnapKit */,
+			);
 			productName = Project;
 			productReference = 2DF3F6FA29FE98B100ED63CA /* Project.app */;
 			productType = "com.apple.product-type.application";
@@ -132,6 +231,9 @@
 				Base,
 			);
 			mainGroup = 2DF3F6F129FE98B100ED63CA;
+			packageReferences = (
+				2DF3F71729FE9B3500ED63CA /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 2DF3F6FB29FE98B100ED63CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -147,7 +249,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF3F70A29FE98B100ED63CA /* LaunchScreen.storyboard in Resources */,
+				2DF3F72F29FEF8D500ED63CA /* Euclid Circular A Medium.ttf in Resources */,
+				2DF3F72A29FEF8D500ED63CA /* Euclid Circular A Regular.ttf in Resources */,
+				2DF3F72B29FEF8D500ED63CA /* Euclid Circular A Medium Italic.ttf in Resources */,
+				2DF3F72D29FEF8D500ED63CA /* Euclid Circular A Light.ttf in Resources */,
 				2DF3F70729FE98B100ED63CA /* Assets.xcassets in Resources */,
+				2DF3F72C29FEF8D500ED63CA /* Euclid Circular A Light Italic.ttf in Resources */,
+				2DF3F72729FEF8D500ED63CA /* Euclid Circular A SemiBold Italic.ttf in Resources */,
+				2DF3F72E29FEF8D500ED63CA /* Euclid Circular A Bold.ttf in Resources */,
+				2DF3F72629FEF8D500ED63CA /* Euclid Circular A Bold Italic.ttf in Resources */,
+				2DF3F72929FEF8D500ED63CA /* Euclid Circular A Italic.ttf in Resources */,
+				2DF3F72829FEF8D500ED63CA /* Euclid Circular A SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +270,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DF3F70229FE98B100ED63CA /* ViewController.swift in Sources */,
+				2DF3F73329FEFCE700ED63CA /* UIView+.swift in Sources */,
+				2D07BB6229FF01CB006C8549 /* UIImageView+.swift in Sources */,
+				2DF3F73529FEFD6700ED63CA /* UIButton+.swift in Sources */,
+				2D07BB6029FF014C006C8549 /* UIViewController+.swift in Sources */,
+				2D07BB5E29FF0128006C8549 /* SelectionController.swift in Sources */,
+				2DF3F73729FEFFC000ED63CA /* UILabel+.swift in Sources */,
+				2DF3F70229FE98B100ED63CA /* MenuController.swift in Sources */,
+				2DF3F71629FE9A5200ED63CA /* UIColor+.swift in Sources */,
+				2DF3F73129FEFA1600ED63CA /* UIFont+.swift in Sources */,
 				2DF3F6FE29FE98B100ED63CA /* AppDelegate.swift in Sources */,
 				2DF3F70029FE98B100ED63CA /* SceneDelegate.swift in Sources */,
 			);
@@ -368,6 +488,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2DF3F71729FE9B3500ED63CA /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2DF3F71829FE9B3500ED63CA /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DF3F71729FE9B3500ED63CA /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2DF3F6F229FE98B100ED63CA /* Project object */;
 }
